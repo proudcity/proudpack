@@ -13,6 +13,9 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
+if ( defined('WP_CLI') && WP_CLI ) {
+    include __DIR__ . '/cli/proudpack-phone-home.php';
+}
 
 add_action( 'rest_api_init', function () {
 	  register_rest_route( 'wp/v2', '/menu', array(
