@@ -2,15 +2,12 @@
 /** proudpack.php
  *
  * Plugin Name: ProudPack
- * Plugin URI:  http://en.obenland.it/wp-proud-search/#utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-proud-search
- * Description: Provides title suggestions while typing a search query, using the built in jQuery suggest script.
+ * Description: Provides integration between the WordPress ReST API and Calypso (via the proudcity-api).
  * Version:   2.1.0
- * Author:    Konstantin Obenland
- * Author URI:  http://en.obenland.it/#utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-proud-search
+ * Author:    ProudCity
+ * Author URI:  https://proudcity.com
  * Text Domain: wp-proud-search
- * Domain Path: /lang
- * License:   GNU General Public License v2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * License:   Affero GPL v3
  */
 
 namespace Proudpack;
